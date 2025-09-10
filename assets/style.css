@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 85%;
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, rgb(84, 132, 221), white);
+}
+
+.hbd-menu-list h1{
+    font-size: 50PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.contact{
+
+    width: 100%;
+    height: auto;
+    padding: 75px 0 50px 0;
+    text-align: center;
+    background-color: rgba(3,3,3, 45%);
+}
+.contact h1{
+    color: #fff;
+    font-size: 3rem;
+}
+.contact p{
+    margin-bottom: 4.16rem;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+p.cont-img {
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.cont-img img{
+    height: 100%;
+}
+
+.copyright {
+    font-size: 18px;
+    padding: 10px 20px;
+    text-align: center;
+    font-weight: 500;
+    color: #eef1f1;
+}
+
+
+.hbd-menu-list
+ {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-list {
+    width: 70%;
+    height: 450px;
+    background: #a3f3e5;
+}
+
+ul{
+    padding-left: 35px;
+}
+
+li {
+    padding-left: 30px;
+    padding-top: 30px;
+    color: chocolate;
+    font-size: 30px;
+}
+
+
+button {
+    background: blue;
+    color: #fff;
+    font-family: sans-serif;
+    border: none;
+    height: 23px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 425px){
+
+li {
+    padding-left: 0px;
+    padding-top: 30px;
+    color: chocolate;
+    font-size: 15px;
+}
+}
+
+@media (max-width: 375px){
+
+ li {
+    padding-left: 0px;
+    padding-top: 30px;
+    color: chocolate;
+    font-size: 15px;
+}
+
+}
+
